@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Reservation System</title>
+    </head>
+    <SCRIPT>
+//        function isTrue(){
+//            var checkErr=false;
+//            if(document.reg.name.value == ""){
+//                alert("Name is empty.");
+//                document.reg.name.focus();
+//                return false;
+//            }
+//            else if(document.reg.keyword.value == ""){
+//                alert("Keyword is empty.");
+//                document.reg.keyword.focus();
+//                return false;
+//            }
+//            else if(document.reg.num.value == ""){
+//                alert("You did not enter the number of people.");
+//                document.reg.num.focus();
+//                return false;
+//            }
+//            else
+//                reg.submit();
+//            return true;
+//        }
+//
+    </SCRIPT>
+
+    <body bgcolor="#ffe4db" link="#0400ff">
+	<form action="index.php" method="post" onsubmit="return isTrue();">
+            <br><br>
+	    <table cellpadding="10">
+		<tr><font color="#9513a1" size="5" align=center>
+		    <td>Name: <input type="text" name="name"/></font></td>
+		</tr>
+		<tr><font color="#9513a1" size="5" align=center>
+		    <td>Keyword: <input type="text" name="keyword"/></font></td>
+		</tr>
+		<tr><font color="#9513a1" size="5" align=center>
+		    <td>Number of people: <input type="text" name="num"/></font></td>
+		</tr>
+                <tr><font color="#9513a1" size="5" align=center>
+		    <td>Date: <input type="datetime-local" name="time"/></font></td>
+		</tr>
+
+
+	    </table>
+            <p><input type="submit" value="Done"/></p>
+	</form>
+    </body>
+</html>
+
